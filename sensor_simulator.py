@@ -4,7 +4,7 @@ from azure.iot.device import IoTHubDeviceClient, Message
 import random
 import time
 os.environ["SSL_CERT_FILE"] = certifi.where()
-CONNECTION_STRING = "HostName=farm-sensor-1.azure-devices.net;DeviceId=farm-sensor-1;SharedAccessKey=4ZLlTVqUFJZFO4ssSSHbcyNuJvpwmeHUJbk3UcK36LQ="
+CONNECTION_STRING = "For security purpose here I am not adding my connection string"
 
 def simulate_sensor():
     client = IoTHubDeviceClient.create_from_connection_string(CONNECTION_STRING)
